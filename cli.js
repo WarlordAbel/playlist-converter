@@ -21,7 +21,7 @@ async function init() {
     const userInfo = await spotify.getUserInfo(token.access_token);
     const youtubePlaylistId = await rl.questionAsync(`[${moment().format('hh:mm:ss.SSS')}] :: Enter the ID of the youtube playlist :: `);
     const spotifyPlaylistName = await rl.questionAsync(`[${moment().format('hh:mm:ss.SSS')}] :: Enter a name for your spotify playist :: `)
-    const playlistId = await spotify.createPlaylist(token.access_token, userInfo.id, { name: spotifyPlaylistName, description: 'Playlist auto converted from Youtube using Kauefranca/sync-playlists'});
+    const playlistId = await spotify.createPlaylist(token.access_token, userInfo.id, { name: spotifyPlaylistName, description: 'Playlist auto converted from Youtube'});
     const youtubeVideos = await youtube.getSongsFromPlaylist(youtubePlaylistId)
     logger("Converting playlist, please wait...".yellow)
 
