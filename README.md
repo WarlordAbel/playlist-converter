@@ -5,9 +5,9 @@ a simple cli program that converts a youtube music playlist to a spotify playlis
 # Requirements
 > Node && Git
 
-## Installtion
+## Installation
 ```bash
-> git clone https://github.com/0xAbel/playlist-converter
+> git clone https://github.com/WarlordAbel/playlist-converter
 > cd playlist-converter
 > npm install
 ```
@@ -20,13 +20,16 @@ Open the config json and you should some credentials that are needed in order fo
 
 To get your credentials create an account on [Spotify for Developers](https://developer.spotify.com/) and make sure to add the redirect_url on Dashboard > Edit Settings > Redirect URIs
 
+
+This project also uses the Youtube API, get your Youtube API key from [Youtube API](https://cloud.google.com/) and open the config json file and input your Youtube API key. 
+
+
+
 Now with everything set just run:
 
 ```bash
 > npm start
 ```
-
-[![Playlist converter](https://res.cloudinary.com/marcomontalbano/image/upload/v1636664235/video_to_markdown/images/youtube--c81Wq0b6Vks-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=c81Wq0b6Vks&ab_channel=Abel "Playlist converter")
 
 
 If you find some issue fell free to open a [issue](https://github.com/0xAbel/playlist-converter/issues) or a [pull request](https://github.com/0xAbel/playlist-convereter/pulls)
