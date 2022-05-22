@@ -2,7 +2,7 @@
 
 a simple cli program that converts a youtube music playlist to a spotify playlist, this program automates this tedious process of having to manually add each playlist one by one. 
 
-![alt text](Screen Shot 2022-05-22 at 3.31.51 PM.png "Example")
+![CLI](Screen%20Shot%202022-05-22%20at%203.31.51%20PM.png "Example")
 
 
 # Requirements
